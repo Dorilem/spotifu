@@ -5,6 +5,7 @@
 	overflow: hidden;
 	background: rgba(255, 255, 255, .1);
 	transition: .3s background;
+	text-decoration: none;
 }
 
 .playlistB:hover, .playlistB:focus-within{
@@ -16,6 +17,8 @@
 	padding: 1rem;
 	gap: .5rem;
 	align-items: center;
+	justify-content: space-between;
+	width: 100%;
 }
 
 .playlistB-cover img{
@@ -28,6 +31,7 @@
 	color: var(--white);
 	font: var(--baseFontBold);
 	margin: 0;
+	text-decoration: none;
 }
 
 .playlistB:hover .playlistB-control,

@@ -1,0 +1,17 @@
+.flexOrder{
+	display: flex;
+	gap: 5em;
+}
+
+.flexOrder img{
+	border-radius: 50%;
+}
+
+.flexOrder:nth-child(even) p{
+	/*order: 1;*/
+	order: -1;
+}
+
+/*.flexOrder:nth-child(even) img{
+	order: 2;
+}*/
