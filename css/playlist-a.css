@@ -5,6 +5,7 @@
 	background: var(--gray40);
 	box-sizing: border-box;
 	transition: .3s background;
+	text-decoration: none;
 }
 
 .playlistA:hover, .playlistA:focus-within{
@@ -49,6 +50,7 @@
 
 .playlistA-description{
 	font: var(--baseFont);
+	color: var(--gray10);
 	margin: 0;
 }
 
